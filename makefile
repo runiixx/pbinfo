@@ -2,6 +2,7 @@
 pdpd :=./Clasa XI/Programare dinamica/Probleme diverse de programare dinamica
 strctrep :=  ./Clasa IX/Elemente de baza ale limbajului/Structuri repetitive
 grafelem := ./Clasa XI/Teoria Grafurilor/Probleme elementare cu grafuri neorientate
+recursdivers := ./Clasa X/Recursivitate/Probleme diverse
 all:
 	g++ '$(pdpd)/395\comori.cpp' -o '$(pdpd)/395\comori.exe'
 	g++ './Clasa IX/Elemente de baza ale limbajului/Structuri repetitive\Afisarea unor valori/328/afisarenumere1.cpp' -o './Clasa IX/Elemente de baza ale limbajului/Structuri repetitive/Afisarea unor valori/328/afisarenumere1.exe'
@@ -14,6 +15,10 @@ all:
 	g++ '$(grafelem)/4060/gradk.cpp' -o '$(grafelem)/4060/gradk.exe'
 	g++ '$(grafelem)/2707/matad.cpp' -o '$(grafelem)/2707/matad.exe'
 	g++ '$(grafelem)/416/grade.cpp' -o '$(grafelem)/416/grade.exe'
+	g++ '$(recursdivers)/4050/amongus.cpp' -o '$(recursdivers)/4050/amongus.exe'
+4050:
+	g++ '$(recursdivers)/4050/amongus.cpp' -o '$(recursdivers)/4050/amongus.exe'
+
 2707:
 	g++ '$(grafelem)/2707/matad.cpp'-o '$(grafelem)/2707/matad.exe'
 4060:
