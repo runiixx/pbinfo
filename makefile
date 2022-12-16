@@ -16,6 +16,13 @@ all:
 	g++ '$(grafelem)/2707/matad.cpp' -o '$(grafelem)/2707/matad.exe'
 	g++ '$(grafelem)/416/grade.cpp' -o '$(grafelem)/416/grade.exe'
 	g++ '$(recursdivers)/4050/amongus.cpp' -o '$(recursdivers)/4050/amongus.exe'
+	g++ '$(pdpd)/2528/lungimesubsircomunmaximal.cpp' -o '$(pdpd)/2528/lungimesubsircomunmaximal.exe'
+	g++ '$(pdpd)/2242/inserari.cpp' -o '$(pdpd)/2242/inserari.exe'
+
+2242:
+	g++ '$(pdpd)/2242/inserari.cpp' -o '$(pdpd)/2242/inserari.exe'
+2528:
+	g++ '$(pdpd)/2528/lungimesubsircomunmaximal.cpp' -o '$(pdpd)/2528/lungimesubsircomunmaximal.exe'
 4050:
 	g++ '$(recursdivers)/4050/amongus.cpp' -o '$(recursdivers)/4050/amongus.exe'
 
