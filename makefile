@@ -18,6 +18,7 @@ all:
 	g++ '$(recursdivers)/4050/amongus.cpp' -o '$(recursdivers)/4050/amongus.exe'
 	g++ '$(pdpd)/2528/lungimesubsircomunmaximal.cpp' -o '$(pdpd)/2528/lungimesubsircomunmaximal.exe'
 	g++ '$(pdpd)/2242/inserari.cpp' -o '$(pdpd)/2242/inserari.exe'
+	g++ '$(grafelem)/438/componenteconexe.cpp' -o '$(grafelem)/438/componenteconexe.exe'
 
 2242:
 	g++ '$(pdpd)/2242/inserari.cpp' -o '$(pdpd)/2242/inserari.exe'
